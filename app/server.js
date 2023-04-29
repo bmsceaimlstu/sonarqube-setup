@@ -16,8 +16,8 @@ app.get('/', (req, res) => {
 // set common response headers for all incoming requests
 app.use('/api', apiRoute);
 
-if (!module.parent) {
-  app.listen(port, () => console.log('App booted'));
-}
+// if (!module.parent) {
+//   app.listen(port, () => console.log('App booted'));
+// }
 
-module.exports = app;
+// module.exports = app;
