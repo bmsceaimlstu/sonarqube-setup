@@ -1,12 +1,12 @@
-{
-  "name": "sonarqube",
-  "version": "1.0.1",
-  "description": "Sonarqube setup with node app",
-  "main": "server.js",
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:VikashChoudahry/sonarqube-setup.git"
-  },
+// {
+//   "name": "sonarqube",
+//   "version": "1.0.1",
+//   "description": "Sonarqube setup with node app",
+//   "main": "server.js",
+//   "repository": {
+//     "type": "git",
+//     "url": "git@github.com:VikashChoudahry/sonarqube-setup.git"
+//   },
   "scripts": {
     "test": "mocha --timeout 30000 ./test/**/*.js --exit",
     "coverage": "./node_modules/.bin/nyc -r cobertura -r text-summary -r html npm test",
