@@ -7,9 +7,9 @@ const { expect } = require('chai'),
 describe('Test GET API', () => {
   it('Should get valid response from test api', (done) => {
     request
-      //.get('/api/v1/test')
-      //.set('Accept', 'application/json')
-      //.send(fixtures.postPayload)
+      .get('/api/v1/test')
+      .set('Accept', 'application/json')
+      .send(fixtures.postPayload)
       .end((err, response) => {
         if (err) done(err);
         // expect(response.status).to.be.equal(200);
